@@ -149,6 +149,7 @@ def tree_map_cast(inputs: PyTree, input_dtype: np.dtype, output_dtype: np.dtype,
   def cast_fn(x):
     if x.dtype == input_dtype:
       return x.astype(output_dtype)
+    return x
   return jax.tree.map(cast_fn, inputs)
 
 
