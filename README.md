@@ -1,5 +1,9 @@
 # WeatherNext
 
+<p align="center">
+  <b>English</b> · <a href="README.zh.md">简体中文</a>
+</p>
+
 ## WeatherNext 2
 
 This repo contains the code for WeatherNext 2 (WN2), the global, medium-range
